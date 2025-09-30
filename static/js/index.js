@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!wasActive) a.classList.add('is-active');
       });
     });
-  
+  oppai
     document.addEventListener('click', (e) => {
       if (!container.contains(e.target)) clearActive();
     });
